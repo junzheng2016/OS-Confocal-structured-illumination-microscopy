@@ -14,7 +14,7 @@ In this study, we also made an important discovery: there’s no need to reconst
 
 We have also provided a program for reconstruction optical sectioning image with OS-SIM.
 
-# Supporting and example data in this study and DLL files can be downloaded with the following link: 
+# raw data in this study can be downloaded with the following link: 
 https://drive.google.com/drive/folders/1zCXlDlkdB2lWyqny-jmcRhDHQwoql1FR?usp=sharing
 
 
