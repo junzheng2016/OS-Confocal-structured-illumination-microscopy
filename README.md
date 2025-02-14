@@ -4,11 +4,11 @@
 
 We introduce the confocal imaging principle into the structured illumination microscopy and propose a optical-sectioning confocal structured illumination microscopy to improve the signal-to-noise ratio and the imaging depth of fluorescent optical sectioning imaging [[papaer]](https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-18-32550&id=554913). To realize confocal imaging in structured illumination microscopy, we firstly calibrate the conjugate relationship between the spatial light modulator and the camera, then use the conjugate relationship to generate digital pinhole. Next, we use each pixel of the camera as a single-pixel detector and use the principles of dual imaging and Fourier single-pixel imaging to reconstruct dual image to separate the  signal from the conjugate object point and the noise from the non-conjugated object points. Third, we use the generated digital pinhole to extract the conjugated signal from the dual imagge and put it back to the camera pixel. Some Fourier single-pixel reconstruction programs refer to the open-source code provided by Zhang Zibang [[code]](https://github.com/zibangzhang/Fourier-single-pixel-imaging). The whole program mainly consists of three modules:
 
-(1) generate projection pattern; 
+(1) Generate projection pattern; 
 
-(2) calibrate the congjuate relationship between the spatial light modulator and the camera; 
+(2) Calibrate the congjuate relationship between the spatial light modulator and the camera; 
 
-(3) reconstruct optical-sectioning image. 
+(3) Reconstruct optical-sectioning image. 
 
 In this study, we also made an important discovery: there’s no need to reconstruct the dual image. Only by relying on the measured Fourier coefficients and the digital pinhole can we calculate the conjugate signal. Therefore, we have provided two reconstruction programs. One of them requires the use of dual images when reconstructing light slice images, while the other does not require the use of dual images during the reconstruction of light slice images. Using the latter reconstruction program (i.e., the one that does not require the use of dual images) can significantly reduce the time required for image reconstruction and effectively improve the reconstruction efficiency.
 
