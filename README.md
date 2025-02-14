@@ -12,6 +12,8 @@ We introduce the confocal imaging principle into the structured illumination mic
 
 In this study, we also made an important discovery: there’s no need to reconstruct the dual image. Only by relying on the measured Fourier coefficients and the digital pinhole can we calculate the conjugate signal. Therefore, we have provided two reconstruction programs. One of them requires the use of dual images when reconstructing light slice images, while the other does not require the use of dual images during the reconstruction of light slice images. Using the latter reconstruction program (i.e., the one that does not require the use of dual images) can significantly reduce the time required for image reconstruction and effectively improve the reconstruction efficiency.
 
+We have also provided a program for reconstruction optical sectioning image with OS-SIM.
+
 
 
 # Citation
